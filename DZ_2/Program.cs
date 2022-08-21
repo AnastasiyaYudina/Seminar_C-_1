@@ -25,6 +25,25 @@
 // }
 
 
+// Console.Write("Input number ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// string numberT = Convert.ToString(number);
+
+// if (numberT.Length >2 )
+// {
+//     Console.WriteLine ("third number is "+ numberT[2]);
+// }
+// else {
+//     Console.Write ("Third number is not");
+// }
+
+
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// char[] array = Math.Abs(num).ToString().ToCharArray();
+// Console.WriteLine(array.Length > 3 ? $"Третья цифра введенного числа: {array[2]}": "Третьей цифры нет");
+
+
 // Напишите программу, которая принимает на вход цифру, 
 // обозначающую день недели, и проверяет, является ли этот день выходным
 // Console.WriteLine ("Введите цифру обозначающую день недели [1,7]:");
