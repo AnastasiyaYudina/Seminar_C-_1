@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\bin\Debug\net6.0\DZ_4.exe
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\bin\Debug\net6.0\DZ_4.deps.json
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\bin\Debug\net6.0\DZ_4.runtimeconfig.json
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\bin\Debug\net6.0\DZ_4.dll
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\bin\Debug\net6.0\DZ_4.pdb
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.dll
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\refint\DZ_4.dll
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.pdb
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\DZ_4.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Обучение\Изучение языка C#\Seminar_1\DZ_4\obj\Debug\net6.0\ref\DZ_4.dll
