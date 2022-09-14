@@ -565,17 +565,6 @@
 // ShowArray(myArray);
 
 
-
-
-
-
-
-
-
-
-
-
-
 // 
 // Console.Clear();
 // int[] array = GetRandomArray(8,0,100);
@@ -650,23 +639,67 @@
 
 // Console.Clear();
 
+// int[] CreateRandomArray(int size, int min, int max)
+// Метод который задает массив из случайных рандомных чисел
+
+// {
+// int[] array = new int[size];
+// for (int i = 0; i < size; i++)
+// {
+// array[i] = new Random().Next(min, max + 1);
+// }
+// return array;
+// }
+
+// void ShowArray(int[] array) // Метод который выводит массив на экран
+// {
+
+// for (int i = 0; i < array.Length; i++)
+// {
+// Console.Write(array[i] + " ");
+// }
+// Console.WriteLine();
+// }
+
+// int[] myArray = CreateRandomArray(12, -9, 9); // Основное решение задачи
+// ShowArray(myArray);
+
+// int sum_pos = 0;
+// int sum_neg = 0;
+
+// for (int i = 0; i < myArray.Length; i++)
+// {
+// if (myArray[i] > 0)
+// sum_pos += myArray[i];
+// else
+// sum_neg += myArray[i];
+// }
+
+// Console.WriteLine($"Сумма положительных: {sum_pos}. Сумма отрицательных: {sum_neg}");
+
+
+// Задача 32: Напишите программу замена элементов массива: 
+// положительные элементы замените на соответствующие отрицательные, и наоборот.
+
+
+// Console.Clear();
+
 // int[] CreateRandomArray(int N, int start, int end)
 // {
-//     int[] RandomArray = new int[N];
-//     for (int i = 0; i < N; i++)
-//     {
-//         RandomArray[i] = new Random().Next(start, end + 1);
-//     }
-//     return RandomArray;
+// int[] RandomArray = new int[N];
+// for (int i = 0; i < N; i++)
+// {
+// RandomArray[i] = new Random().Next(start, end + 1);
+// }
+// return RandomArray;
 // }
 // int[] moyarray = CreateRandomArray(8,-10,11);
 // Console.WriteLine(String.Join(",",moyarray));
 // for (int i = 0; i < moyarray.Length; i++)
 // {
-//     moyarray[i]=-moyarray[i];
+// moyarray[i]=-moyarray[i];
 // }
 // Console.WriteLine(String.Join(",",moyarray));
-
 
 
 // Задача 33: Задайте массив. Напишите программу, 
@@ -675,9 +708,59 @@
 
 
 
+// int[] CreateRandomArray(int size, int min, int max)
+// {
+// int[] array = new int[size];
+// for (int i = 0; i < size; i++)
+// {
+// array[i] = new Random().Next(min, max + 1);
+// }
+// return array;
+// }
+
+// void ShowArray(int[] array)
+// {
+
+// for (int i = 0; i < array.Length; i++)
+// {
+// Console.Write(array[i] + " ");
+// }
+// Console.WriteLine();
+// }
+
+// Console.WriteLine("Input size: ");
+// int size = int.Parse(Console.ReadLine() ?? "0");
+// Console.WriteLine("Input min: ");
+// int min = int.Parse(Console.ReadLine() ?? "0");
+// Console.WriteLine("Input max: ");
+// int max = int.Parse(Console.ReadLine() ?? "0");
+// Console.WriteLine("Input random number: ");
+// int random = int.Parse(Console.ReadLine() ?? "0");
+// bool flag = false;
+// int[] array = CreateRandomArray(size, min, max);
+// ShowArray(array);
+// for (int i = 0; i < array.Length; i++)
+// {
+// if (array[i] == random)
+// {
+// flag = true;
+// }
+// }
+// if (flag == true)
+// {
+// Console.WriteLine($"Данное число присутствует в массиве: " + random);
+
+// }
+// else
+// {
+// Console.WriteLine("Не присутствует");
+
 // Задайте одномерный массив из 123 случайных чисел. Найдите количество 
 // элементов массива, значения 
 // которых лежат в отрезке [10,99].
+
+
+
 // int[] GetRandomArray(int size)
 // {
 //     int[] result = new int[size];
@@ -702,6 +785,49 @@
 
 
 
+
+
+
+// Задача 37: Найдите произведение пар чисел в одномерном массиве. 
+// Парой считаем первый и последний элемент, второй и 
+// предпоследний и т.д. Результат запишите в новом массиве.
+
+
+
+int[] CreateRandomArray(int N, int start, int end)
+{
+int[] RandomArray = new int[N];
+for (int i = 0; i < N; i++)
+{
+RandomArray[i] = new Random().Next(start, end + 1);
+}
+return RandomArray;
+}
+
+void ShowArray(int[] array)
+{
+for (int i = 0; i < array.Length; i++)
+{
+Console.Write(array[i] + " ");
+}
+Console.WriteLine();
+}
+
+int[] myArray = CreateRandomArray(12, -9, 9);
+ShowArray(myArray);
+
+int result = 0;
+int a = myArray.Length -1;
+for (int i = 0; i < myArray.Length/2 ; i++)
+{
+result = myArray[i] * myArray[a];
+a -= 1;
+Console.Write($"[{String.Join(",", result)}]");
+}
+if(myArray.Length%2 != 0)
+{
+Console.Write($"[{String.Join(",", myArray[myArray.Length/2])}]");
+}
 
 
 
